@@ -1,0 +1,13 @@
+.container {
+  padding: 1rem;
+}
+
+.review {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  list-style-type: none;
+}
+
+.reviewAuthor {
+  font-weight: bold;
+}

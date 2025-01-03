@@ -1,0 +1,43 @@
+.container {
+  padding: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  flex: 0 1 calc(15% - 1rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: var(--color-button-bg);
+}
+
+.actorImage {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.actorName {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: var(--color-text);
+}
+
+.actorRole {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #555;
+}
